@@ -1,0 +1,95 @@
+/* src/Registration.css */
+
+/* Overall container styles */
+/* Registration.css */
+body {
+    background-image: url('https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    font-family: Arial, sans-serif; /* Set a preferred font family */
+  }
+.registration-container {
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  /* Add the rest of your CSS styles for the registration form */
+  
+  
+  /* Logo styles */
+  .registration-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-image {
+    max-width: 200px; /* Adjust the width as needed */
+  }
+  
+  /* Form container styles */
+  .registration-form {
+    width: 100%;
+    max-width: 400px; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Form field styles */
+  input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  /* Apply the reduced width to specific input fields */
+  .registration-form .small-input {
+    width: 10px; /* You can adjust the width as needed */
+  }
+  
+  /* Error message styles */
+  .error {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  /* Submit button styles */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer styles */
+  .registration-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

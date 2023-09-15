@@ -39,7 +39,7 @@ const Login = () => {
     <div className="registration-container">
       <div className="registration-logo">
         <img
-          src="https://cdn.dribbble.com/userupload/10073509/file/original-1de32e541052e54ae2df360d338438e4.png?resize=1200x1200" // Replace with the path to your app's logo
+          src="https://cdn.dribbble.com/userupload/10073509/file/original-1de32e541052e54ae2df360d338438e4.png?resize=1200x1200" 
           alt="Logo"
           className="logo-image"
         />

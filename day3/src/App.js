@@ -11,7 +11,7 @@ function App() {
           <Route path="/" element={<Registration />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/login" element={<Login />} />
-          {/* Add more routes for other pages if needed */}
+        
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Registration.css'; // Import the CSS file
+import './Registration.css'; 
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -7,7 +7,7 @@ const Login = () => {
     password: '',
   });
 
-  const [errors, setErrors] = useState({}); // For form field validation errors
+  const [errors, setErrors] = useState({}); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,7 +17,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Basic client-side validation (you can add more specific checks)
+   
     const newErrors = {};
     if (!formData.username) {
       newErrors.username = 'Username is required';

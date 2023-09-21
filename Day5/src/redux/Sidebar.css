@@ -1,0 +1,92 @@
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: #000000;
+  transition: left 0.3s;
+}
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar-content {
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+ /* Add this to your CSS file to style the profile image and upload label */
+.circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px; /* Adjust the circle height as needed */
+    background-color: #333;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .upload-label {
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px; /* Spacing between the circle and label */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-label i {
+    font-size: 24px;
+  }
+  
+  .name {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px; /* Spacing between the circle and name */
+    text-align: center; /* Center-align the name */
+  }
+  
+  /* Rest of your Sidebar styles */
+  .sidebar-text {
+    align-items: left;
+    margin-top: 60px; /* Add 10px spacing at the top */
+    margin-bottom: 100px; /* Add 10px spacing at the bottom */
+  }  
+  .sidebar-text p:not(:last-child) {
+    margin-bottom: 30px; /* Add 10px spacing at the bottom for all except the last */
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%; /* Make the sidebar full width for smaller screens */
+      left: -100%; /* Hide the sidebar off-screen by default */
+    }
+  
+    /* Adjust the transition for smoother animation */
+    .sidebar {
+      transition: left 0.5s;
+    }
+  
+    .sidebar.open {
+      left: 0; /* Show the sidebar when it's open */
+    }
+  }

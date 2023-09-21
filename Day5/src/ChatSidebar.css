@@ -1,0 +1,97 @@
+/* ChatSidebar.css (or add this CSS to your existing Home.css file) */
+
+/* Chat sidebar container */
+.chat-sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Initially hide the sidebar off the screen */
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    transition: right 0.3s ease-in-out;
+  }
+  
+  /* Show the chat sidebar when the "showChat" class is applied */
+  .chat-sidebar.show {
+    right: 0;
+  }
+  
+  /* Chat sidebar header */
+  .chat-sidebar h3 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  /* Close button to hide the chat sidebar */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styling for the list of friends */
+  .friend-list {
+    padding: 20px;
+  }
+  
+  /* Styling for individual friend items */
+  .friend-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styling for friend profile pictures */
+  .friend-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Styling for friend names */
+  .friend-name {
+    font-weight: bold;
+  }
+  
+  /* Styling for the chat interface */
+  .chat-interface {
+    padding: 20px;
+  }
+  
+  /* Styling for chat messages */
+  .chat-message {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for message sender names */
+  .message-sender {
+    font-weight: bold;
+  }
+  
+  /* Styling for message text */
+  .message-text {
+    margin-top: 5px;
+  }
+  
+  /* Example styles for the chat input box */
+  .chat-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  

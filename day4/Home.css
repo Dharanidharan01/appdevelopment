@@ -1,0 +1,138 @@
+
+
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add padding as needed */
+}
+  
+  /* Welcome message styles */
+  .home-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+ /* Add this to your CSS file to style the toggle button */
+.toggle-button {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: none;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 999;
+    transition: left 0.3s ease; /* Add a transition for the left property */
+  }
+  
+  /* Style for the hamburger lines */
+  .bar {
+    background-color: #333;
+    height: 3px;
+    width: 25px;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+  
+  .open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  /* Adjust the button's position when the sidebar is open */
+  .sidebar-open .toggle-button {
+    left: 250px;
+  }
+  /* Style the text input for posting */
+.post-input textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none; /* Disable textarea resizing */
+  margin-bottom: 10px;
+}
+
+/* Style the post button */
+.post-input button {
+  background-color: #007bff; /* Blue color, you can choose your preferred color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Change the button color on hover */
+.post-input button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+/* Style for individual post */
+.post {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 70px;
+  background-color: #f9f9f9; /* Set the background color for the post box */
+}
+
+.post-text {
+  font-size: 16px;
+}
+
+.timestamp {
+  color: #888;
+  font-size: 14px;
+}
+.posted-text {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 100px;
+  margin-top: 1000px; /* Add margin to create space below the post button */
+  background-color: #f9f9f9;
+}
+
+/* Adjust the position of the "posted-text" box */
+.posted-text p {
+  margin: 0; /* Remove default margin for the paragraphs inside the box */
+}
+/* Add these styles to your Home.css file */
+
+.home-page {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.top-bar {
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #030303;
+  color: #fff;
+}
+
+.top-bar h1 {
+  margin: 0;
+}
+
+/* Add or modify other styles as needed */

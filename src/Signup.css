@@ -1,0 +1,81 @@
+/* Signup.css */
+
+/* Signup container styles */
+/* Add this to your Signup.css file */
+
+.signup-container {
+  margin-top: 100px;
+  margin-left: 540px;
+  max-width: 400px;
+  margin: 100,1000;
+  padding: 30px;
+  background-color: #f4f4f469;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent; }
+
+.signup-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.signup-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-container button:hover {
+  background-color: #0056b3;
+}
+
+.signup-container p {
+  margin-top: 15px;
+}
+
+/* Rest of your styles */
+
+  
+  /* Input styles */
+  .signup-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styles */
+  .signup-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error message styles */
+  .error {
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+ 

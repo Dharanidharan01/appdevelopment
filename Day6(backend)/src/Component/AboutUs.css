@@ -1,0 +1,152 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.about-us {
+  /* ... (your existing styles) */
+  margin-bottom: 100px; /* Add space of 50px at the bottom */
+}
+.about-us {
+  margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .social-media-logo{
+    margin-top: 80px;
+   margin-left: 100px;
+    height: 5%;
+    width: 5%;
+    padding-left: 100px;
+  }
+  
+  .content-container {
+    opacity: 70%;
+    text-align: center;
+    background: rgba(210, 210, 210, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+  }
+  
+  .image-container img {
+    width: 30%;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+  
+  .op{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  /* p {
+    color: rgb(26, 26, 26);
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  } */
+  
+ 
+ 
+
+
+
+.scroll-content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .scroll-content a {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px;
+    color: #0073e6;
+  }
+  
+  .left-animation,
+  .right-animation {
+    opacity: 0;
+    transform: translateX(-50%) translateY(50%);
+    transition: opacity 5ms, transform 1ms;
+  }
+  
+  .left-animation.active,
+  .right-animation.active {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+  }
+  
+ 
+
+
+
+
+.left-animation {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .right-animation {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .left-animation.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .right-animation.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+   
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.background-video video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

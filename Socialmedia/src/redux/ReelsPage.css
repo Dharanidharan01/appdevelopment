@@ -1,0 +1,93 @@
+.reels-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  video {
+    width: 100%;
+    max-height: 400px;
+  }
+  
+  .actions {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .like-button, .comment-button, .share-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 8px;
+    color: #007BFF;
+  }
+  
+  .like-button:hover, .comment-button:hover, .share-button:hover {
+    text-decoration: underline;
+  }
+  
+  .comment-input {
+    flex-grow: 1;
+    margin-right: 8px;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  
+  .comment-input:focus {
+    outline: none;
+    border: 1px solid #007BFF;
+  }
+  
+  .comments {
+    margin-top: 16px;
+  }
+  
+  .comments h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .comment {
+    display: flex;
+    margin: 8px 0;
+    align-items: flex-start;
+  }
+  
+  .user {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  
+  .reel-navigation {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .reel-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin: 4px;
+    font-weight: bold;
+  }
+  
+  .reel-button.active {
+    background-color: #000000;
+  }
+  
+  body {
+    background-color: #000000;
+  }
+  
+  /* Adjust styles as needed to match your design preferences */
+  

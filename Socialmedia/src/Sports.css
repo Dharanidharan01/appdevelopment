@@ -1,0 +1,32 @@
+.news-box p a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .news-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px; /* Adjust the gap as needed */
+    padding: 5px;
+  }
+  
+  .news-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px; /* Adjust the gap as needed */
+  }
+  
+  .news-box {
+    width: 100%;
+    text-align: center;
+    height: 250px; /* Adjust the height as needed for consistency */
+    overflow: hidden; /* Ensures content doesn't overflow if it exceeds the specified height */
+  }
+  
+  /* Additional styling for images and videos */
+  .news-box img,
+  .news-box iframe {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Ensures that images and videos maintain their aspect ratio and cover the container */
+  }

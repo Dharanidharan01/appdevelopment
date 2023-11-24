@@ -1,0 +1,287 @@
+body, html {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  .main-Container {
+    display: flex;
+  }
+  
+  /* .home-page{
+    background-image: url("https://images.pexels.com/photos/5926378/pexels-photo-5926378.jpeg?auto=compress&cs=tinysrgb&w=600");
+    margin-top: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .home-container {
+    
+    margin: 0 auto;
+    background-image: url("https://images.pexels.com/photos/5926378/pexels-photo-5926378.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+   
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  } */
+  
+  .home-page {
+    /* background-image: url("https://images.pexels.com/photos/5926378/pexels-photo-5926378.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+  }
+  
+  .home-container {
+    /* background-image: url("https://images.pexels.com/photos/5926378/pexels-photo-5926378.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+    background-size: cover;
+    /* Add other styling properties as needed */
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .home-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-button {
+    position: fixed;
+    left: 3px;
+    top: 0px;
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 999;
+  
+  }
+  
+  .bar {
+    background-color: #646464;
+    height: 3px;
+    width: 25px;
+    margin: 5px 5px;
+    transition: 0.4s;
+  }
+  
+  .open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    left: 100px;
+  }
+  
+  .open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  .sidebar-open .toggle-button {
+    left: 250px;
+  }
+  
+  .post-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a34848;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 350px;
+  }
+  
+  .post-input button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post-input button:hover {
+    background-color: #0056b3;
+  }
+  .post {
+    opacity: 100%;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  .post {
+    opacity: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 70px;
+    background-color: #fdfdfd;
+  }
+  .post-text {
+    font-size: 16px;
+  }
+  
+  .timestamp {
+    color: #ea0000;
+    font-size: 14px;
+  }
+  
+  .posted-text {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 100px;
+    margin-top: 1000px;
+    background-color: #f9f9f9;
+  }
+  
+  .posted-text p {
+    margin: 0;
+  }
+  
+  .home-page {
+    margin: 0%;
+    background-color: #f0f0f0;
+    padding: 0px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .top-bar {
+    /* margin: 0px; */
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    background-color: #ffffff;
+    margin-left: 50px;
+    color: #fff;
+  }
+  
+  .top-bar h1 {
+    margin-left: 1000px;
+    margin: 0;
+  }
+  
+  .top-bar {
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    background-color: #030303;
+    margin-left: 50px;
+    color: #fff;
+  }
+  
+  .home-page{
+    /* background-image: url("https://images.pexels.com/photos/5926378/pexels-photo-5926378.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+    background-size: cover;
+  }
+  
+  /* Add these styles to your existing CSS or create a new stylesheet */
+  .trending-topics-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .trending-topics-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #ccc;
+    padding: 2px;
+  }
+  
+  .trending-topic {
+    width: 150px;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  
+  .trending-topic img {
+    width: 100%;
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 8px;
+    color: #ccc;
+  }
+  h2{
+    color: #f0f0f0;
+  }
+  
+  /* Add these styles to your existing stylesheet or create a new one */
+  /* 
+  .trending-topics-list {
+    display: flex;
+    overflow-x: hidden;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100% * var(--index)));
+    }
+  }
+  
+  .trending-topic {
+    margin-right: 10px;
+    flex-shrink: 0; 
+    animation: scroll 10s linear infinite var(--index); 
+  }
+  
+  .trending-topic:hover {
+    transform: scale(1.1); 
+    animation-play-state: paused; 
+  } */
+  
+  /* Add this to your Home.css or create a new CSS file */
+  .slider-image {
+    width: 99%; /* Adjust this value based on your preference */
+    height: 55%;
+    padding-top: 6px;
+  }
+  
+  h1{
+    padding-top: 0%;
+  }
+  /* Add this to your Home.css or create a new CSS file */
+  .slider-topic {
+    text-align: center; /* Align the text to the center */
+    font-size: 21px;
+    font-weight: 600;
+    color: #ffffff; /* Adjust the text color */
+    margin-top: 10x; /* Add some top margin for spacing */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  /* Add these styles to your existing CSS or create a new CSS file */
+  .slider-container {
+    position: relative;
+  }
+  
+  .slider-container img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slider-container img:hover {
+    transform: scale(1.016);
+    cursor: pointer;
+  }

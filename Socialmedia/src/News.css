@@ -1,0 +1,28 @@
+.news-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px; /* Adjust the gap as needed */
+    padding: 15px;
+  }
+  
+  .news-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px; 
+  }
+  
+  .news-box {
+    width: 280px;
+    text-align: center;
+    height: 250px; 
+    overflow: hidden; 
+    padding-left: 38px;
+  }
+  
+
+  .news-box img,
+  .news-box iframe {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Ensures that images and videos maintain their aspect ratio and cover the container */
+  }

@@ -1,0 +1,111 @@
+/* Explore.css */
+.explore-page {
+    padding: 40px;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .photo-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .photo-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .photo-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .photo-caption {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .photo-stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .photo-stats .likes,
+  .photo-stats .comments {
+    display: flex;
+    align-items: center;
+  }
+  
+  .photo-stats .likes i,
+  .photo-stats .comments i {
+    margin-right: 5px;
+    color: #ff5733;
+    font-size: 18px;
+  }
+  
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+  
+  .modal-content {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .modal-caption {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .modal-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .modal-likes,
+  .modal-comments {
+    display: flex;
+    align-items: center;
+  }
+  
+  .modal-likes i,
+  .modal-comments i {
+    margin-right: 5px;
+    color: #ff5733;
+    font-size: 18px;
+  }
+  

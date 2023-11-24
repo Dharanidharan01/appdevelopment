@@ -1,0 +1,16 @@
+.policy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height as needed */
+    margin-left: 20px;
+  }
+  
+  .policy-box {
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: left;
+    margin-top: 20px; /* Adjust the margin-top to move the box upwards */
+    margin-right: 20px;
+  }

@@ -1,0 +1,87 @@
+/* Feed.css */
+.feed {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  resize: none;
+}
+
+.post-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.post-button:hover {
+  background-color: #2980b9;
+}
+
+.feed-post {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-user-info {
+  flex-grow: 1;
+}
+
+.post-username {
+  font-weight: 600;
+  margin: 0;
+}
+
+.post-timestamp {
+  color: #777;
+  margin: 0;
+}
+
+.post-text {
+  margin: 0;
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+
+.post-image {
+  max-width: 100%;
+  margin-top: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
